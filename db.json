@@ -32,55 +32,113 @@
                 "locationId" : 2,
                 "familyId" : 3
                 }
-            ],
-            "locations":[
-                {
-                "id": 1,
-                "name": "Location001"
-                },
-                {
-                "id": 2,
-                "name": "Location002"
-                },
-                {
-                "id": 3,
-                "name": "Location003"
-                }
-            ],
-            "families":[
-                {
-                "id": 1,
-                "name": "FM001"
-                },
-                {
-                "id": 2,
-                "name": "FM002"
-                },
-                {
-                "id": 3,
-                "name": "FM003"
-                }
-            ],
-            "transactions":[
-                {
-                "id": 1,
-                "cost":11,
-                "quantity":10,
-                "productId":1
-                },
-                {
-                "id": 2,
-                "cost":12,
-                "quantity":100,
-                "productId":2
-                },    
-                {
-                "id": 3,
-                "cost":15,
-                "quantity":101,
-                "productId":3
-                }  
-            ],
+            ],            
+            "data": [
+        {
+            "id": {
+                "entityType": "ALARM",
+                "id": "62082480-925f-11e9-adca-d9796083e16c"
+            },
+            "createdTime": 1560927397576,
+            "tenantId": {
+                "entityType": "TENANT",
+                "id": "2126ba80-90d9-11e9-a250-b5b9ac1450a4"
+            },
+            "type": "Critical Temperature",
+            "originator": {
+                "entityType": "DEVICE",
+                "id": "1bbd96e0-90de-11e9-adca-d9796083e16c"
+            },
+            "severity": "CRITICAL",
+            "status": "ACTIVE_UNACK",
+            "startTs": 1560927397574,
+            "endTs": 1560927397574,
+            "ackTs": 0,
+            "clearTs": 0,
+            "details": {},
+            "propagate": true,
+            "originatorName": "Thermo A-2",
+            "name": "Critical Temperature"
+        },
+        {
+            "id": {
+                "entityType": "ALARM",
+                "id": "156f87d0-925f-11e9-adca-d9796083e16c"
+            },
+            "createdTime": 1560927269069,
+            "tenantId": {
+                "entityType": "TENANT",
+                "id": "2126ba80-90d9-11e9-a250-b5b9ac1450a4"
+            },
+            "type": "Critical Temperature",
+            "originator": {
+                "entityType": "DEVICE",
+                "id": "1bbd96e0-90de-11e9-adca-d9796083e16c"
+            },
+            "severity": "CRITICAL",
+            "status": "CLEARED_ACK",
+            "startTs": 1560927269067,
+            "endTs": 1560927269067,
+            "ackTs": 1560927374494,
+            "clearTs": 1560927386731,
+            "details": {},
+            "propagate": true,
+            "originatorName": "Thermo A-2",
+            "name": "Critical Temperature"
+        },
+        {
+            "id": {
+                "entityType": "ALARM",
+                "id": "60be7240-91b6-11e9-adca-d9796083e16c"
+            },
+            "createdTime": 1560854810468,
+            "tenantId": {
+                "entityType": "TENANT",
+                "id": "2126ba80-90d9-11e9-a250-b5b9ac1450a4"
+            },
+            "type": "Critical Temperature",
+            "originator": {
+                "entityType": "DEVICE",
+                "id": "1bbd96e0-90de-11e9-adca-d9796083e16c"
+            },
+            "severity": "CRITICAL",
+            "status": "CLEARED_UNACK",
+            "startTs": 1560854810458,
+            "endTs": 1560927107671,
+            "ackTs": 0,
+            "clearTs": 1560927246858,
+            "details": {},
+            "propagate": true,
+            "originatorName": "Thermo A-2",
+            "name": "Critical Temperature"
+        },
+        {
+            "id": {
+                "entityType": "ALARM",
+                "id": "03d7e760-91b5-11e9-adca-d9796083e16c"
+            },
+            "createdTime": 1560854225110,
+            "tenantId": {
+                "entityType": "TENANT",
+                "id": "2126ba80-90d9-11e9-a250-b5b9ac1450a4"
+            },
+            "type": "Critical Temperature",
+            "originator": {
+                "entityType": "DEVICE",
+                "id": "1bbd96e0-90de-11e9-adca-d9796083e16c"
+            },
+            "severity": "CRITICAL",
+            "status": "CLEARED_UNACK",
+            "startTs": 1560854225108,
+            "endTs": 1560854225108,
+            "ackTs": 0,
+            "clearTs": 1560854399550,
+            "details": {},
+            "propagate": true,
+            "originatorName": "Thermo A-2",
+            "name": "Critical Temperature"
+        }
+    ],
             "results": [
         {
             "id": 21,
@@ -101,131 +159,6 @@
             "status": "BUSY",
             "title": "Health monitor \"snort\" has seen no activity for over 752 d.",
             "url": "http://87.254.206.100/api/v1/alerts/21/"
-        },
-        {
-            "id": 20,
-            "assigned_user": {
-                "id": 1,
-                "email": "hemant.singh@nokia.com",
-                "first_name": "Hemant",
-                "last_name": "Singh",
-                "is_staff": true,
-                "company": null
-            },
-            "content_date": null,
-            "created_date": "2019-06-06T19:12:59.496328Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "BUSY",
-            "title": "Health monitor \"intel\" has seen no activity for over 752 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/20/"
-        },
-        {
-            "id": 19,
-            "assigned_user": {
-                "id": 1,
-                "email": "hemant.singh@nokia.com",
-                "first_name": "Hemant",
-                "last_name": "Singh",
-                "is_staff": true,
-                "company": null
-            },
-            "content_date": null,
-            "created_date": "2019-06-05T10:07:10.322662Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "BUSY",
-            "title": "Health monitor \"snort\" has seen no activity for over 751 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/19/"
-        },
-        {
-            "id": 18,
-            "assigned_user": {
-                "id": 2,
-                "email": "testuser@mail.com",
-                "first_name": "",
-                "last_name": "",
-                "is_staff": false,
-                "company": null
-            },
-            "content_date": null,
-            "created_date": "2019-06-05T10:07:10.202264Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": "completed",
-            "status": "DONE",
-            "title": "Health monitor \"intel\" has seen no activity for over 751 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/18/"
-        },
-        {
-            "id": 17,
-            "assigned_user": null,
-            "content_date": null,
-            "created_date": "2019-06-04T10:06:41.427584Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "CRITICAL",
-            "outcome": null,
-            "status": "NEW",
-            "title": "Health monitor \"snort\" has seen no activity for over 750 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/17/"
-        },
-        {
-            "id": 16,
-            "assigned_user": null,
-            "content_date": null,
-            "created_date": "2019-06-04T10:06:41.243526Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "NEW",
-            "title": "Health monitor \"intel\" has seen no activity for over 750 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/16/"
-        },
-        {
-            "id": 15,
-            "assigned_user": null,
-            "content_date": null,
-            "created_date": "2019-06-03T10:06:16.143150Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "NEW",
-            "title": "Health monitor \"snort\" has seen no activity for over 749 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/15/"
-        },
-        {
-            "id": 14,
-            "assigned_user": null,
-            "content_date": null,
-            "created_date": "2019-06-03T10:06:15.976258Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "NEW",
-            "title": "Health monitor \"intel\" has seen no activity for over 749 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/14/"
-        },
-        {
-            "id": 13,
-            "assigned_user": null,
-            "content_date": null,
-            "created_date": "2019-06-02T10:05:24.554431Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "NEW",
-            "title": "Health monitor \"snort\" has seen no activity for over 748 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/13/"
         },
         {
             "id": 5,
