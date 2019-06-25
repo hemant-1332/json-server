@@ -1,38 +1,5 @@
 {
-            "products": [
-                {
-                "id": 1,
-                "name": "Product001",
-                "cost": 10.0,
-                "quantity": 1000,
-                "locationId" : 1,
-                "familyId" : 1
-                },
-                {
-                "id": 2,
-                "name": "Product002",
-                "cost": 20.0,
-                "quantity": 2000,
-                "locationId" : 1,
-                "familyId" : 2
-                },   
-                {
-                "id": 3,
-                "name": "Product003",
-                "cost": 30.0,
-                "quantity": 3000,
-                "locationId" : 3,
-                "familyId" : 2     
-                },
-                {
-                "id": 4,
-                "name": "Product004",
-                "cost": 40.0,
-                "quantity": 4000,
-                "locationId" : 2,
-                "familyId" : 3
-                }
-            ],            
+            "products": {"id":{"entityType":"ALARM","id":"831e6870-940b-11e9-8c7c-b94217cbda67"},"createdTime":1561111277687,"tenantId":{"entityType":"TENANT","id":"b02f79b0-926e-11e9-a723-634cce3599fe"},"type":"Panic","originator":{"entityType":"DEVICE","id":"3b989400-93f0-11e9-8c7c-b94217cbda67"},"severity":"MAJOR","status":"CLEARED_ACK","startTs":1561111277686,"endTs":1561364470490,"ackTs":1561367387082,"clearTs":1561364516666,"details":{"alertstatus":"true","devicename":"ECB India","devicetype":"ECB","count":2},"propagate":true,"originatorName":"ECB India","name":"Panic"},            
             "data": [
         {
             "id": {
