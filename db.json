@@ -1,5 +1,5 @@
 {
-            "products": {"CustomerIdentifier":"SaaSCustomer1","ProductCode":"PC1212"},
+            "resolve": {"CustomerIdentifier":"SaaSCustomer1","ProductCode":"PC1212"},
             "data": [
         {
             "id": {
