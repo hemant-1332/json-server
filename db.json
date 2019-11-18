@@ -1,5 +1,8 @@
 {
-            "products": {"id":{"entityType":"ALARM","id":"831e6870-940b-11e9-8c7c-b94217cbda67"},"createdTime":1561111277687,"tenantId":{"entityType":"TENANT","id":"b02f79b0-926e-11e9-a723-634cce3599fe"},"type":"Panic","originator":{"entityType":"DEVICE","id":"3b989400-93f0-11e9-8c7c-b94217cbda67"},"severity":"MAJOR","status":"CLEARED_ACK","startTs":1561111277686,"endTs":1561364470490,"ackTs":1561367387082,"clearTs":1561364516666,"details":{"alertstatus":"true","devicename":"ECB India","devicetype":"ECB","count":2},"propagate":true,"originatorName":"ECB India","name":"Panic"},            
+            "products": {
+'CustomerIdentifier':'SaaSCustomer1',
+'ProductCode':'PC1212'
+},
             "data": [
         {
             "id": {
