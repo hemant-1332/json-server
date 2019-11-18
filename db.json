@@ -1,5 +1,5 @@
 {
-            "resolve": {"CustomerIdentifier":"SaaSCustomer1","ProductCode":"PC1212"},
+            "resolve": {"CustomerIdentifier":"CI123","ProductCode":"PC1212"},
             "results": {"Results":[{"UsageRecord":{"Timestamp":1560927397574,"CustomerIdentifier":"CI123","Dimension":"DIM123","Quantity":123},"MeteringRecordId":"MR123","Status":"Success"}],"UnprocessedRecords":[{"Timestamp":1560927397574,"CustomerIdentifier":"CI122","Dimension":"DIM123","Quantity":123}]},
-            "entitlements": {"Entitlements":[{"CustomerIdentifier":"","Dimension":"","ExpirationDate":"","ProductCode":"","Value":{"BooleanValue":1,"DoubleValue":12.23,"IntegerValue":12,"StringValue":"12"}}],"NextToken":"TOK1212"}
+            "entitlements": {"Entitlements":[{"CustomerIdentifier":"CI123","Dimension":"DIM123","ExpirationDate":1560927269067,"ProductCode":"PC1212","Value":{"BooleanValue":1,"DoubleValue":12.23,"IntegerValue":12,"StringValue":"12"}}],"NextToken":"TOK1212"}
             }
