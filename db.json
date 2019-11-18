@@ -106,46 +106,5 @@
             "name": "Critical Temperature"
         }
     ],
-            "results": [
-        {
-            "id": 21,
-            "assigned_user": {
-                "id": 2,
-                "email": "testuser@mail.com",
-                "first_name": "",
-                "last_name": "",
-                "is_staff": false,
-                "company": null
-            },
-            "content_date": null,
-            "created_date": "2019-06-06T19:13:00.230838Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": null,
-            "status": "BUSY",
-            "title": "Health monitor \"snort\" has seen no activity for over 752 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/21/"
-        },
-        {
-            "id": 5,
-            "assigned_user": {
-                "id": 1,
-                "email": "hemant.singh@nokia.com",
-                "first_name": "Hemant",
-                "last_name": "Singh",
-                "is_staff": true,
-                "company": null
-            },
-            "content_date": null,
-            "created_date": "2019-05-29T10:03:28.931097Z",
-            "distillery": null,
-            "incidents": 1,
-            "level": "HIGH",
-            "outcome": "false positive",
-            "status": "NEW",
-            "title": "Health monitor \"snort\" has seen no activity for over 744 d.",
-            "url": "http://87.254.206.100/api/v1/alerts/5/"
-        }
-    ]
+            "entitlements": {"Entitlements":[{"CustomerIdentifier":"","Dimension":"","ExpirationDate":"","ProductCode":"","Value":{"BooleanValue":1,"DoubleValue":12.23,"IntegerValue":12,"StringValue":"12"}}],"NextToken":"TOK1212"}
             }
