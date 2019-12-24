@@ -1,5 +1,5 @@
 {
             "resolve": {"CustomerIdentifier":"CI123","ProductCode":"PC1212"},
-            "results": {"code":200,"msg":"OK","total":2,"data":[{"DeviceID":"225888","DevTag":"t00001","Description":" Fire Alarm","Createtime":"2019-06-18 10:40:32"},{"DeviceID":"t00002","DevTag":"Shanghai","Description":" Smoke Alarm","Createtime":"2019-06-18 10:41:32"}]},
+            "results": {"code":200,"msg":"OK","total":2,"data":[{"DeviceID":"225888","DevTag":"t00001","Description":" Fire Alarm","Createtime":"2019-06-18 10:40:32"},{"DeviceID":"t00002","DevTag":"Shanghai","Description":" Smoke Alarm","Createtime":"2019-06-18 10:41:32"},{"DeviceID":"t00003","DevTag":"Shanghai","Description":" Smoke Alarm","Createtime":"2019-06-18 10:41:32"}]},
             "entitlements": {"Entitlements":[{"CustomerIdentifier":"CI123","Dimension":"DIM123","ExpirationDate":1560927269067,"ProductCode":"PC1212","Value":{"BooleanValue":1,"DoubleValue":12.23,"IntegerValue":12,"StringValue":"12"}}],"NextToken":"TOK1212"}
             }
